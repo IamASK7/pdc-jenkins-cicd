@@ -12,3 +12,4 @@ Jenkins then runs the pipeline in `Jenkinsfile`:
 
 `parallel_sum.c` computes the sum 1..100,000,000 and the value of PI in parallel with OpenMP
 `reduction(+)`, and checks both against the exact answers.
+Webhook test: this commit should trigger Jenkins automatically.
